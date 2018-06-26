@@ -1,0 +1,97 @@
+
+* {font-family: Tahoma;}
+
+
+.header {
+    text-align: center;
+}
+
+#banner {
+    background-image: url("../src/rec_converter_logo2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin: 0;
+
+}
+
+.pink-orange-background {
+    background-color: #AB5361;
+    color: #E5F0D2;
+    padding: 25px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2, .blue-green, #gramsOfIng, #enteredIngredient {
+    color: #2E808A;
+    font-weight: bold;
+}
+
+.theList {
+
+}
+
+#remove-button {
+    color: lightgrey;
+    background-color: white;
+    border-radius: 30px;
+    background-color: #D1DBC0;
+    color: #9EA691;
+    font-size: 10px;
+}
+
+body {
+    background: #E5F0D2;
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.input-boxes {
+    border-radius: 8px;
+    background-color: white;
+}
+
+#pressed-button {
+    background-color: #AB5361;
+    color: #E5F0D2;
+    border-radius: 35px;
+    height: 30px;
+    margin-left: 10px;
+    border-color: #703640;
+    border-width: 3px;
+
+}
+
+#email-address {
+    width: 300px;
+}
+
+#recipe-ingredients {
+    color: green;
+    margin: 20px;
+}
+
+#full-recipe {
+    width: 800px;
+    min-height: 300px;
+    overflow: auto;
+    border-top: solid green;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 25px;
+    outline: none;
+}
+
+#recipe-card {
+    background-color: white;
+    border: dashed green;
+    width: 850px;
+    height: 500px;
+
+}
